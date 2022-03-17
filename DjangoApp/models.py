@@ -11,5 +11,5 @@ class Employees(models.Model):
     EmployeeName = models.CharField(max_length=500)
     Department = models.CharField(max_length=500)
     DataOfJoining = models.DateField()
-    PhotoFileName = models.CharField(max_length=500)
+    PhotoFileName = models.CharField(max_length=5000)
     
